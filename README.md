@@ -51,3 +51,5 @@ HTML, CSS and JavaScript. No database or external API is required for the core p
 ## Sources and verification
 
 NASA and NSSDCA resources are used as references for the mission stories. Individual artifact facts and source links should be verified against primary NASA sources before final publication.
+
+AI Assistance: ChatGPT was used to assist with brainstorming, code generation and debugging, and project text preparation.
