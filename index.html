@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ghosts of Space — NASA's Machines That Never Came Home</title>
+<meta name="description" content="An interactive educational journey through NASA spacecraft and equipment left behind across the Solar System.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home" aria-label="Ghosts of Space home"><span class="brand-mark">◈</span> GHOSTS OF SPACE</a>
+  <nav>
+    <a href="#explore">Explore</a>
+    <a href="#timeline">Timeline</a>
+    <a href="#about">About</a>
+  </nav>
+  <button id="soundBtn" class="icon-btn" aria-label="Toggle narration">🔊</button>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="hero-stars"></div>
+  <div class="hero-copy">
+    <p class="eyebrow">NASA SPACE APPS CHALLENGE 2026</p>
+    <h1>Their missions ended.<br><span>Their stories didn't.</span></h1>
+    <p class="lead">Travel across the Moon, Mars, asteroids and deep space to meet the machines humanity left behind — and discover the science they made possible.</p>
+    <div class="hero-actions">
+      <a class="primary-btn" href="#explore">Begin the journey <span>→</span></a>
+      <button class="ghost-btn" id="randomBtn">Surprise me</button>
+    </div>
+  </div>
+  <div class="hero-orbit" aria-hidden="true">
+    <div class="orbit o1"></div><div class="orbit o2"></div>
+    <div class="planet moon">◐</div>
+    <div class="satellite">✦</div>
+  </div>
+</section>
+
+<section class="stats">
+  <div><strong>1960s → now</strong><span>Decades of exploration</span></div>
+  <div><strong>4 worlds</strong><span>Moon, Mars, asteroids & beyond</span></div>
+  <div><strong>∞ legacy</strong><span>Science that outlived missions</span></div>
+</section>
+
+<section id="explore" class="section">
+  <div class="section-head">
+    <div><p class="eyebrow">THE ARCHIVE</p><h2>Choose an explorer</h2></div>
+    <p>Every artifact has a story. Start with one.</p>
+  </div>
+  <div id="cards" class="cards"></div>
+</section>
+
+<section id="story" class="story-panel hidden" aria-live="polite">
+  <div class="story-visual" id="storyVisual"></div>
+  <div class="story-content">
+    <button class="close-btn" id="closeStory">× Close</button>
+    <p class="eyebrow" id="storyDestination"></p>
+    <h2 id="storyTitle"></h2>
+    <p class="story-intro" id="storyIntro"></p>
+    <div class="story-facts" id="storyFacts"></div>
+    <div class="story-progress" id="storyProgress"></div>
+    <div class="story-text" id="storyText"></div>
+    <div class="story-nav">
+      <button class="ghost-btn" id="prevStep">← Previous</button>
+      <button class="primary-btn" id="nextStep">Next chapter →</button>
+    </div>
+  </div>
+</section>
+
+<section id="timeline" class="section timeline-section">
+  <div class="section-head">
+    <div><p class="eyebrow">THE LONG JOURNEY</p><h2>One mission becomes another</h2></div>
+    <p>Exploration is rarely a single event. Today's landmark mission often stands on yesterday's experiments.</p>
+  </div>
+  <div class="timeline">
+    <div class="time-item"><span>1971</span><div><h3>Apollo Lunar Roving Vehicle</h3><p>Humans extend their reach across the lunar surface.</p></div></div>
+    <div class="time-item"><span>1997</span><div><h3>Sojourner</h3><p>A tiny rover demonstrates mobile exploration on Mars.</p></div></div>
+    <div class="time-item"><span>2004</span><div><h3>Spirit & Opportunity</h3><p>Long-lived rovers transform our understanding of Martian geology.</p></div></div>
+    <div class="time-item"><span>2021</span><div><h3>Ingenuity</h3><p>A small helicopter proves powered flight is possible on another planet.</p></div></div>
+    <div class="time-item"><span>Tomorrow</span><div><h3>What comes next?</h3><p>New explorers inherit the lessons, maps and engineering of those that came before.</p></div></div>
+  </div>
+</section>
+
+<section class="quote">
+  <p>“A machine can stop moving without becoming irrelevant.”</p>
+  <span>— The idea behind Ghosts of Space</span>
+</section>
+
+<section id="about" class="section about">
+  <div>
+    <p class="eyebrow">WHY THIS EXISTS</p>
+    <h2>Space history shouldn't feel like a textbook.</h2>
+  </div>
+  <div class="about-copy">
+    <p>Young audiences usually meet space exploration through active missions. But thousands of engineering decisions, experiments and discoveries came from missions that are now silent.</p>
+    <p><strong>Ghosts of Space</strong> turns those historical records into short, visual stories: what the hardware was built to do, what happened on the mission, what scientists learned, and what remained after the final signal.</p>
+    <p class="source-note">Built for NASA Space Apps Challenge 2026. Mission facts are intended to be verified against NASA/NSSDCA sources before final publication.</p>
+  </div>
+</section>
+
+<footer>
+  <div><span class="brand">◈ GHOSTS OF SPACE</span><p>The missions ended. The legacy continues.</p></div>
+  <div class="footer-links"><a href="https://nssdc.gsfc.nasa.gov/" target="_blank" rel="noopener">NASA NSSDCA ↗</a><a href="https://science.nasa.gov/" target="_blank" rel="noopener">NASA Science ↗</a></div>
+</footer>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
