@@ -28,11 +28,11 @@ Download or clone this repository and open `index.html` in a web browser. No bui
 
 ## Featured artifacts
 
-- Sojourner — Mars Pathfinder
-- Spirit — Mars Exploration Rover
-- Ingenuity — Mars 2020
+- Sojourner - Mars Pathfinder
+- Spirit - Mars Exploration Rover
+- Ingenuity - Mars 2020
 - Apollo Lunar Roving Vehicle
-- NEAR Shoemaker — 433 Eros
+- NEAR Shoemaker - 433 Eros
 
 ## Demo flow
 
