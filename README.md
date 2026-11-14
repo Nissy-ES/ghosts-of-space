@@ -1,6 +1,6 @@
 # Ghosts of Space
 
-### NASA Space Apps Challenge 2026 — Abandoned but not Forgotten
+### NASA Space Apps Challenge 2026 : Abandoned but not Forgotten Storytelling about NASA's Discarded Equipment on the Moon and Mars
 
 **Tagline:** Their missions ended. Their stories didn't.
 
